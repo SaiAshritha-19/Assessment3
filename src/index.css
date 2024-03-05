@@ -1,0 +1,29 @@
+.App {
+  text-align: center;
+}
+
+.product {
+  border: 1px solid #0b0808;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 10px;
+}
+
+.product-list {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Three equal columns */
+  gap: 20px; /* Gap between each column */
+}
+
+.product img {
+  width: 100px;
+  height: 100px;
+}
+
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  margin-right: 10px;
+}
